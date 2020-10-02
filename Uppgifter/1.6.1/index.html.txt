@@ -1,0 +1,7 @@
+<html>
+ <head>
+   <titel>Roliga Bilder</titel>
+ </head>
+ 
+ <body></body>
+</html>
