@@ -1,6 +1,6 @@
 <html>
  <head>
-   <titel>Roliga Bilder</titel>
+   <title>Roliga Bilder</title>
  </head>
  
  <body></body>
