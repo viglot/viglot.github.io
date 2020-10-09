@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>HTML Övning 1</title>
+ </head>
+ 
+ <body><img src="banner.jpg" alt="Ett tangentbord" width="700" height="250"
+ 
+ </body>
+</html>
