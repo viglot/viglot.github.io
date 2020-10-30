@@ -1,28 +1,30 @@
 body{
     font-family: sans-serif;
-    color: rgb(255, 255, 255); 
+  color: white;
 }
 
 .myDiv {
     padding: 10px;
     background-color: rgb(255, 0, 0);
     text-align: left;
-
+height: 75px;
 }   
 
 .myDiv2 {
-    padding: 2px;
-    background-color: rgb(13, 61, 4);
+    padding: 0.4x;
+    background-color: rgb(46, 201, 18);
     text-align: left;
-    margin: 70px; ;
+    margin: 35px; ;
 
 }   
 
 
 .myDiv3 {
-    padding: 100px;
+    
     background-color: rgb(0, 47, 255);
-    text-align: top left;
+    
+    width: 250px;
+    height: 115px;
 
 }   
 
