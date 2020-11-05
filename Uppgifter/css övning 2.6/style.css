@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+  color: white;
+}
+
+.myDiv {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+
+
+}   
+
+
+.myDiv2 {
+    padding: 10px;
+    background-color: rgb(107, 107, 107);
+    text-align:top left;
+    
+
+}   
+
+
+.myDiv3 {
+    padding: 10px;
+    background-color: rgb(104, 104, 104);
+ 
+    text-align: top left;
+}   
+p{background-color:lightgray;
+margin-top:0px;}
+
