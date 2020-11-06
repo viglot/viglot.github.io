@@ -1,0 +1,25 @@
+body{
+    
+    color: white;
+  }
+  
+  .box1{
+     
+      
+      text-align: left;
+    width: 500px;
+    height: 400px;
+    background-color: rgb(255, 2, 2);
+  }   
+  
+  .box2 {
+   
+      
+      text-align: left;
+   width: 50%;
+   height: 50%;
+   background-color: rgb(0, 0, 0);
+  }   
+  
+  
+  
