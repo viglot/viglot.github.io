@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .parent {
+
+    display: flex;
+    width: 500px;
+    height: 250px;
+    border: 1px solid;
+  }
+    
+  .children {
+
+    width: 50%;
+    height: 50%;
+    color: black;
+    border: 1px solid;
+  }
+  
+  
+
