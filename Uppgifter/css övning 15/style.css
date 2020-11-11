@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    color: white;
+  }
+
+  
+  
+.mydiv1 { 
+
+ width: 50%;
+ height: auto; 
+ background-color: rgb(4, 0, 255);
+ margin-top: 33vh;
+ margin-bottom: 33vh;
+
+}   
+
+.mydiv2 {
+
+width: 45%;
+height: 100vh;
+background-color: rgb(4, 0, 255);
+
+} 
+
+
+.mydiv3 {  
+
+width: 100%;
+height: auto;
+background-color: rgb(4, 0, 255);
+margin-top: 33vh;
+margin-bottom: 33vh;
+} 
+
+.mydiv4{
+   display: flex;
+  }
+
+  
