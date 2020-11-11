@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    color: white;
+  }
+
+.mydiv4{
+    display: flex;
+}
+  
+  
+.mydiv1 { 
+ width: 100%;
+ height: 935px; 
+ background-color: black;
+}   
+
+.mydiv2 {
+width: 100%;
+height: 935px;
+background-color: rgb(255, 251, 0);
+} 
+
+
+.mydiv3 {   
+width: 100%;
+height: 935px;
+background-color: rgb(255, 0, 0);
+} 
