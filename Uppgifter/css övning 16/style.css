@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .mydiv1{
+     
+      
+      text-align: left;
+   color: black;
+  }   
+  a:hover {
+    background-color: red;
+  }
+  .mydiv2 {
+   
+      
+      text-align: left;
+   color: black;
+  } 
+  
+  
+  
