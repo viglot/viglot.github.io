@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    color: rgb(255, 0, 0);
+  }
+  
+  .mydiv1{
+    text-align: center;
+      
+   color: rgb(255, 0, 0);
+  }  
+  
+
+  
+  
+  
+  a {
+    
+    border: 2px solid rgb(255, 0, 0);
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+   text-decoration: none;
+    
+  }
+  
+  a:hover{
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    
+  }
+ 
+  :active{
+    text-decoration: none;
+  
+  }
