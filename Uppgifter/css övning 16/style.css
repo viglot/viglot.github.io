@@ -5,18 +5,17 @@ body{
   
   .mydiv1{
      
-      
-      text-align: left;
+      text-align: center;
    color: black;
   }   
   a:hover {
     background-color: red;
   }
   .mydiv2 {
-   
-      
-      text-align: left;
+  
+      text-align:center;
    color: black;
+   
   } 
   
   
