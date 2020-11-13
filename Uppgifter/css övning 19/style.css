@@ -1,0 +1,24 @@
+body{
+   
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-attachment: fixed;
+   background-size: 400px;
+
+  
+    
+}
+
+
+.mydiv{
+    background: url(cow\ \(1\).jpg);
+border-radius: 50%;
+box-shadow: 5px 10px 20px 5px 10px  5px solid;
+width: 330px;
+height: 330px;
+background-position: center;
+background-size: 400px;
+border: white 50px solid;
+margin-top: 250px;
+margin-left: 680px;
+}
