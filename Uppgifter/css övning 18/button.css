@@ -1,0 +1,63 @@
+body{
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  .--black{
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  
+    
+  .--red{
+      background-color: rgb(255, 255, 255);
+      color: red;
+      border-color: red;
+  }
+  .--red:hover{
+    background-color: red;
+  }
+   
+   
+  .--green{
+      background-color: rgb(255, 255, 255);
+      color: green;
+      border-color: green;
+  }
+  .--green:hover{
+    background-color:green;
+  }
+  .--blue{
+      background-color: rgb(255, 255, 255);
+      color: blue;
+      border-color: blue;
+          
+      
+  }
+
+  .--blue:hover{
+    background-color:blue;
+  }
+ 
+ 
+  a {
+    
+    border: 2px solid rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+   text-decoration: none;
+    width: 55px;
+  }
+  
+  a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+  }
+ 
+  :active{
+    text-decoration: none;
+  }
