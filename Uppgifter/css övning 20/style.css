@@ -1,0 +1,39 @@
+body{
+   font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-color: #eeeeee;
+    background-attachment: fixed;
+  
+
+  
+    
+}
+
+
+.mydiv{
+    background: url(cow\ \(1\).jpg);
+border-radius: 50%;
+box-shadow: 5px 5px 5px gray inset;
+width: 330px;
+height: 330px;
+background-position: center;
+background-size: 400px;
+border: white 50px solid;
+margin-top: 50px;
+margin-left: 25px;
+
+
+}
+
+.mydiv2{
+    height: 820px;
+    width: 655px;
+    background-color: white;
+    background-position: center;
+    margin-top: 80px;
+    margin-left: 500px;
+    font-weight: lighter;
+    display: flex; flex-direction: column;
+align-items: center;
+
+}
