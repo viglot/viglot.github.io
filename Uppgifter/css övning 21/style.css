@@ -1,0 +1,83 @@
+body{
+    font-family: monospace;
+     background-color: rgb(255, 255, 255); 
+     color: rgb(255, 255, 255);
+     margin: 0px;
+     align-items: center;
+     
+}
+
+.topbar{
+
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    font-size: 12px;
+
+    
+}
+
+.child{
+    width: 900px;
+height: 100%;
+display: flex;
+background-color: black;
+margin: 0px auto;
+
+}
+
+.cssovning{
+   margin:auto 0px;
+   
+}
+
+.home{
+    box-shadow: red 0px -5px inset;
+    margin-left: auto;
+margin-top: 30px;
+
+}
+
+.About{
+margin-left: 25px;
+margin-top: 30px;
+}
+
+.Contact{
+margin-left: 25px;
+margin-top: 30px;
+}
+
+.ok.hover{
+box-shadow: red 0px -5px inset;
+background-color: red;
+
+}  
+
+.ok{
+    color: white;
+    height: 80px;
+    width: 100px;
+    margin: auto 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+a{
+    border: 2px solid black;
+    padding: 10px;
+    
+}
+
+:active{
+    text-decoration: none;
+}
+
+
+
+h1, h2, h3 {
+    margin: 0px;
+}
