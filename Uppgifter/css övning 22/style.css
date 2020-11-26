@@ -1,0 +1,70 @@
+body{
+ background-color: rgb(255, 255, 255);   
+ font-family: sans-serif;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ margin: 0px;
+ 
+}
+
+.Dog{
+    background-image: url("dog.jpg");
+    height: 200px;
+    width: 17%;
+    background-size: 340px;
+    background-position: center;
+    margin-left: 400px;
+    margin-top: 50px;
+    border-radius: 1%;
+text-align: right;
+}
+
+.Cat{
+    background-image: url("cat.jpg");
+    height: 200px;
+    width: 17%;
+    background-size: 340px;
+    background-position: center;
+    margin-left: 400px;
+    margin-top: 30px;
+    border-radius: 1%;
+    text-align: right;
+}
+
+.Cow{
+    background-image: url("cow\ \(2\).jpg");
+    height: 200px;
+    width: 17%;
+    background-size: 340px;
+    background-position: center;
+    margin-left: 400px;
+    margin-top: 30px;
+border-radius: 1%;
+text-align: right;
+}
+
+.hr{
+   display: block;
+   
+
+}
+
+.Dogbox{
+    text-align: left;
+    margin-left: 800px;
+    
+    
+    
+}
+
+.Catbox{
+text-align: left;
+margin-left: 800px;
+}
+
+.Cowbox{
+text-align: left;
+margin-left: 800px;
+}
+
