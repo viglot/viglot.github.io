@@ -1,0 +1,22 @@
+body{
+   font-family: sans-serif;
+    
+   }
+
+   .potato{
+    background-image: url("potato.jpg");
+    height: 450px;
+    width: 100%;
+    background-size: 1905px;
+    text-align: center;
+    
+    
+   }
+
+   .potatotext{
+       font-size: 30px;
+       color: white;
+       top: 150px;
+       position: absolute;
+       margin-left: 815px;
+   }
