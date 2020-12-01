@@ -1,0 +1,83 @@
+body{
+
+background-color: rgb(255, 255, 255);
+background-image: url("wwelogo.jpg");
+background-size: 1950px;
+background-repeat: no-repeat;
+width: 25%;
+}
+
+.bild{
+    background-image: url("wwe2k19.jpg");
+    height: 550px;
+    width: 100%;
+    background-size: 500px;
+    text-align: center;
+    background-repeat: no-repeat;
+    margin-left: 1430px;
+
+}
+
+.Text{
+    font-size: 25px;
+    position: absolute;
+top: 80px;
+color: rgb(255, 255, 255);
+right: 480px;
+font-family: monospace;
+}
+
+.buy{
+    font-size: 35px;
+    position: absolute;
+top: 290px;
+color: rgb(255, 255, 255);
+right: 1730px;
+font-family: fantasy;
+}
+
+.button{
+    font-size: 30px;
+    position: absolute;
+    left: 295px;
+    bottom: 605px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  border: none;
+
+  
+}
+
+a {
+    border: 2px solid rgb(209, 209, 209);
+    padding: 5px;
+    border-radius: 25px;
+    display: inline-block;
+   text-decoration: none;
+}
+
+a:hover{
+    color: rgb(1, 29, 121);
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.topbar{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 80px;
+}
+
+    
+
+.child{
+    width: 900px;
+height: 100%;
+display: flex;
+background-color: rgb(0, 0, 0);
+margin: 0px auto;
+
+}
+
