@@ -1,0 +1,22 @@
+body{
+ 
+}
+
+.parent{
+    max-width: 50%;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: 'Nerko One', cursive;
+}
+
+.text{
+    font-family: 'Major Mono Display', monospace;
+}
+
+.rubrik2{
+    font-family:'Major Mono Display', monospace ;
+}
+
+.rubrik3{
+    font-family:'Major Mono Display', monospace ;
+}
