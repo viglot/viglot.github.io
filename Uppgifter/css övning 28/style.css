@@ -1,0 +1,57 @@
+body{
+font-family: sans-serif;
+text-align: center;
+}
+
+.Desktop{
+color: black;
+display: unset ;
+font-size: 22px;
+
+}
+
+
+.Tablet{
+color: black;
+display: none;
+font-size: 22px;
+
+}
+
+
+.Mobile{
+color: black;
+display: none;
+font-size: 22px;
+}
+
+@media screen and (max-width: 900px) {
+    .Tablet {
+        background-color: rgb(255, 255, 255);
+         display: unset;
+    }
+}
+
+
+@media screen and (max-width: 500px)  {
+    .Mobile {
+        background-color: rgb(255, 255, 255);
+        display: unset;    
+    }
+}
+
+
+@media screen and (max-width: 900px)  {
+    .Desktop {
+        background-color: rgb(255, 255, 255);
+         display:none ;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Tablet {
+        background-color: rgb(255, 255, 255);
+         display: none;
+    }
+}
