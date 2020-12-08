@@ -1,0 +1,41 @@
+body{
+
+}
+
+
+.RobinWilliams{
+    text-align: center;
+    font-size: 21px
+}
+
+
+.bild{
+    background: url("robin.jpg");
+    background-size: 350px;
+    height: 400px;
+    width: 35%;
+    background-repeat: no-repeat;
+    
+}
+
+.text{
+top: 500px;
+text-align: left;
+margin-top: 20px;
+font-size: 20px;
+font-family: 'PT Sans', sans-serif;
+}
+
+.mellantext{
+   font-size: 19px;
+   text-align: center;
+   
+}
+
+.undertext{
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+
