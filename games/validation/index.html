@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+     
+    />
+  </head>
+
+  <body>
+    <div class="contact-banner">
+      <h1>Contact Us</h1>
+
+      <p class="contact-description">
+        We'd really love to hear from u! Please fill in the form below and
+        submit
+      </p>
+    </div>
+
+    <form name="contact-form">
+      <div class="form-control">
+        <label>Full Name</label>
+        <input name="name"
+          placeholder="First and Last Name" />
+        <div class="error hide">Name is required</div>
+      </div>
+
+      <div class="form-control">
+        <label>Email</label>
+        <input
+          name="email"
+          placeholder="e.x. your email@example.com"
+        />
+        <div class="error hide">Email is invalid</div>
+      </div>
+
+      <div class="form-control">
+        <label>Phone</label>
+        <input name="phone"
+        ></input>
+        <div class="error hide">Phone is invalid</div>
+      </div>
+
+
+
+      <div class="form-control">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <div class="error hide">Message is required</div>
+      </div>
+
+      <hr />
+
+      <button type="submit">SUBMIT FORM</button>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>
