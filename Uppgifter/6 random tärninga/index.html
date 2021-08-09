@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <img id="dice-1" src="dice-1.svg" width="256" height="256">
+  <img id="dice-2" src="dice-2.svg" width="256" height="256">
+  <img id="dice-3" src="dice-3.svg" width="256" height="256">
+  <img id="dice-4" src="dice-4.svg" width="256" height="256">
+  <img id="dice-5" src="dice-5.svg" width="256" height="256">
+  <img id="dice-6" src="dice-6.svg" width="256" height="256">
+<button id="roll">Roll</button>
+
+<script>
+  
+  let diceImage1 = document.getElementById("dice-1");
+let diceImage2 = document.getElementById("dice-2");
+let diceImage3 = document.getElementById("dice-3");
+let diceImage4 = document.getElementById("dice-4");
+let diceImage5 = document.getElementById("dice-5");
+let diceImage6 = document.getElementById("dice-6");
+
+let displayImage = document.getElementById("display");
+let rollButton = document.getElementById("roll");
+
+rollButton.addEventListener("click", roll);
+
+
+function roll() {
+  let randomNumber = 1 + Math.round(Math.random() * 5);
+  diceImage1.src = "dice-" + randomNumber + ".svg";
+  
+  randomNumber = 1 + Math.round(Math.random() * 5);
+  diceImage2.src = "dice-" + randomNumber + ".svg";
+
+  randomNumber = 1 + Math.round(Math.random() * 5);
+  diceImage3.src = "dice-" + randomNumber + ".svg";
+
+  randomNumber = 1 + Math.round(Math.random() * 5);
+  diceImage4.src = "dice-" + randomNumber + ".svg";
+
+  randomNumber = 1 + Math.round(Math.random() * 5);
+  diceImage5.src = "dice-" + randomNumber + ".svg";
+
+  randomNumber = 1 + Math.round(Math.random() * 5);
+  diceImage6.src = "dice-" + randomNumber + ".svg";
+
+}
+
+</script>
+
+</body>
+</html>

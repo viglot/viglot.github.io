@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html> 
+ <head>
+    <link rel="stylesheet" href="style.css"> 
+ </head>
+
+ <body id="body">
+   Hej på Dig
+   <button id="red-button">RÖDbg</button>
+   <button id="blue-button">BLÅbg</button>
+   <button id="black-button">SVARTbg</button>
+   <button id="green-button">GRÖNbg</button>
+   <button id="orange-button">ORANGEbg</button>
+
+   <button id="redtext-button">RÖDtext</button>
+   <button id="bluetext">BLÅtext</button>
+   <button id="blacktext">SVARTtext</button>
+   <button id="greentext">GRÖNtext</button>
+   <button id="orangetext">ORANGEtext</button>
+
+   <button id="h1-button">h1</button>
+   <button id="h2-button">h2</button>
+   <button id="h3-button">h3</button>
+   <button id="h4-button">h4</button>
+   <button id="h5-button">h5</button>
+
+
+   <script>
+     let bodyElement = document.getElementById('body');
+     let redButtonElement = document.getElementById('red-button');
+     let redtextButtonElement = document.getElementById('redtext-button');
+     document.getElementById('redtext-button').onclick = changeColor;
+     
+     let blueButtonElement = document.getElementById('blue-button');
+     let blackButtonElement = document.getElementById('black-button');
+     let greenButtonElement = document.getElementById('green-button');
+     let orangeButtonElement = document.getElementById('orange-button');
+
+     
+     redButtonElement.addEventListener('click', changeBgToRed);
+     blueButtonElement.addEventListener('click', changeBgToBlue);
+     blackButtonElement.addEventListener('click', changeBgToBlack);
+     greenButtonElement.addEventListener('click', changeBgToGreen);
+     orangeButtonElement.addEventListener('click', changeBgToOrange);
+
+     function changeBgToRed() {
+       bodyElement.style.background = 'red';
+     }
+
+     function changeColor(){
+       document.body.style.color = "red";
+     }
+
+     function changeBgToBlue() {
+       bodyElement.style.background = 'blue';
+     }
+   
+     function changeBgToBlack() {
+       bodyElement.style.background = 'black';
+     }
+
+     function changeBgToGreen() {
+       bodyElement.style.background = 'green';
+     }
+
+     function changeBgToOrange() {
+       bodyElement.style.background = 'orange';
+     }
+
+    
+
+     
+    
+   </script>
+ </body>
+   
+ </html>

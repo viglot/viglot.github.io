@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html> 
+ <head>
+ </head>
+
+ <body>
+   <h1 id="Hej">Color Changer 2k!</h1>
+   
+   <div class="skicka">
+   <parent>
+    <div>
+      <label for="bgcolor">Färg:</label>
+      <input name="bgcolor" id="bgcolor">
+      <input name="textcolor" id="color">
+      <input name="fontsize" id="fontsize">
+  </parent>
+</div>
+<button id="button">Skicka</button>
+
+     <script>
+
+let bgcolorInput = document.getElementById('bgcolor');
+let textcolorInput = document.getElementById('color');
+
+let fontsizeInput = document.getElementById('fontsize');
+let sendButton = document.getElementById('button');
+
+
+sendButton.addEventListener('click', onButtonClicked,);
+
+function onButtonClicked() {
+  document.body.style.backgroundColor = bgcolorInput.value;
+
+}
+
+     </script>
+ </body>
+ </html>
