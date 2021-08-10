@@ -1,6 +1,5 @@
 body{
-
- 
+    
     font-family: 'Palette Mosaic', cursive;
     background-color: yellow;
    
@@ -9,15 +8,18 @@ body{
 
 h1{
     color: red;
+    
 }
 
-.parent{
-    display: flex;
+.center{
     
-    justify-content: center;
-    align-items: center;
-text-align: center;
+    text-align: center;
+    padding: 400px
+
 }
+
+
+
 
 
 
