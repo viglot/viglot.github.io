@@ -12,7 +12,7 @@ h1{
 }
 
 .center{
-    
+    align-items: center;
     text-align: center;
     padding: 400px;
     
