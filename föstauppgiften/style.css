@@ -1,0 +1,41 @@
+*{
+    color: white;
+
+}
+
+#parent{
+    border: 10px solid black;
+}
+
+#box{
+    width: 618px;
+    height: 333px;
+    background-color: red;
+
+}
+
+#box2{
+    width: 618px;
+    height: 333px;
+    background-color: rgb(44, 125, 172);
+
+}
+
+#box3{
+    width: 618px;
+    height: 333px;
+    background-color: rgb(255, 196, 0);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+ 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
